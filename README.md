@@ -51,11 +51,19 @@ Para acessar o painel adminstrativo deverá ser informado o usuario `tenant@thin
 
 ## Usabilidade
 
-##
+### Criação dos dispositivos
+No painel adminstrativo do ThingsBoard deverá ser incluido dispositovos, eles deverão obrigatoriamente ter os nomes da seguinte forma:
+- sensor1_temperatura
+- sensor2_umidade
+- sensor3_ruido
+- sensor4_qualidade_ar
 
+### Configuração do Dashboard
+Deverá ser acessado no painel adminstrativo a tela de `Dashboards`, nessa tela deverá clicar no `(+)` e clicar em `Importar dashboard`, após isso deve ser selecionado o arquivo `.json` que se encontra em `outros_arquivos\iot_cidades_inteligentes.json`.
 
+Com esse processo será importado o Dashboard criado e poderá ser visualizado os dados que serão enviados.
 
-## Envios dos dados
+### Envios dos dados
 Para os envios das informações para o ThingsBoard é necessario que seja executado cada um dos arquivos disponbilizados na pasta dos dispositivos.
 
 A execução deverá ser feita usando os seguintes comandos.
