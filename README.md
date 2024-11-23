@@ -1,7 +1,7 @@
 # IoT Cidade Inteligente
 
 ## Descrição
-Projeto para criação de um ambiente de Internet das Coisas (IoT) distribuído, com 4 dispositivos enviando dados de sensoriamento ambiental para uma aplicação em nuvem (ThingsBoard). Os dados são processados e visualizados em um dashboard, com ações executadas com base em condições específicas.
+Projeto para criação de um ambiente de Internet das Coisas (IoT) distribuído, com 4 dispositivos enviando dados de sensoriamento ambiental para uma aplicação ThingsBoard. Os dados são gerados de forma aleatória, processados e enviado para o ThingsBoards para que possam ser visualizados em um dashboard.
 
 ## Estrutura do Projeto
 - **Dispositivos:**
@@ -44,5 +44,31 @@ docker compose up -d
 docker compose logs -f mytb
 ```
 Para acessar o ThingsBoard deverá ser acessado seguinte link: localhost:8080.  
+
 Para acessar o painel adminstrativo deverá ser informado o usuario `tenant@thingsboard.org` com a senha `tenant`.
+
+### Envio dos arquivos
+Para os envios das informações para o ThingsBoard é necessario que seja executado cada um dos arquivos disponbilizados na pasta dos dispositivos.
+
+A execução deverá ser feita usando os seguintes comandos.
+- Gerador de informações de temperatura
+```bash
+py .\dispositivos\sensor1_temperatura\sensor1_temperatura.py  
+```
+- Gerador de informações de umidade
+```bash
+py .\dispositivos\sensor2_umidade\sensor2_umidade.py
+```
+- Gerador de informações de ruido
+```bash
+py .\dispositivos\sensor3_ruido\sensor3_ruido.py
+```
+- Gerador de informações de qualidade do ar
+```bash
+py .\dispositivos\sensor4_qualidade_ar\sensor4_qualidade_ar.py
+```
+
+
+
+
 
