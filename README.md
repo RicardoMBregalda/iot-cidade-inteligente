@@ -10,8 +10,11 @@ Projeto para criação de um ambiente de Internet das Coisas (IoT) distribuído,
   - `sensor3_ruido.py` - Ruído
   - `sensor4_qualidade_ar.py` - Qualidade do Ar
 
-- **Broker MQTT:**
-  - Mosquitto (localhost)
-
-- **Aplicação em Nuvem:**
+- **Aplicação para visualização dos Dashboards:**
   - ThingsBoard (localhost:8080)
+
+## Como clonar o projeto
+```bash
+  git clone https://github.com/RicardoMBregalda/iot-cidade-inteligente.git
+```
+
