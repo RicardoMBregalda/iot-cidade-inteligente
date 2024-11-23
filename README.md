@@ -17,4 +17,24 @@ Projeto para criação de um ambiente de Internet das Coisas (IoT) distribuído,
 ```bash
   git clone https://github.com/RicardoMBregalda/iot-cidade-inteligente.git
 ```
+## Como realizar a instalação do projeto (Windows)
+Para que o projeto seja funcional, primeiramente deve ser realizado a instalação do Python3 e Docker.
+- Link de download do Python3: https://www.python.org/downloads/
+- Link de download do Docker: https://docker-docs.uclv.cu/get-docker/
 
+### Instalação do Tinkboard (Windows + Docker)
+
+```bash
+docker volume create mytb-data
+```
+```bash
+docker volume create mytb-logs
+```
+**Após a criação dos volumes, deveremos acessar via terminal a `outros_arquivos` e rodar os seguintes comandos:**
+
+```bash
+docker compose up -d
+```
+```bash
+docker compose logs -f mytb
+```
