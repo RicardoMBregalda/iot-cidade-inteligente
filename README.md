@@ -43,7 +43,6 @@ docker compose up -d
 ```bash
 docker compose logs -f mytb
 ```
-Para acessar o ThingsBoard deverá ser acessado seguinte link: localhost:8080.
+Para acessar o ThingsBoard deverá ser acessado seguinte link: localhost:8080.  
 Para acessar o painel adminstrativo deverá ser informado o usuario `tenant@thingsboard.org` com a senha `tenant`.
 
-  
