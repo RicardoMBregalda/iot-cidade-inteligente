@@ -3,7 +3,7 @@
 ## Descrição
 Projeto para criação de um ambiente de Internet das Coisas (IoT) distribuído, com 4 dispositivos enviando dados de sensoriamento ambiental para uma aplicação ThingsBoard. Os dados são gerados de forma aleatória, processados e enviado para o ThingsBoards para que possam ser visualizados em um dashboard.
 
-![Dashboard]("./outros_arquivos/dashboard.png")
+![Dashboard](./outros_arquivos/dashboard.png "Visualização do Dashboard")
 
 ## Estrutura do Projeto
 - **Dispositivos:**
