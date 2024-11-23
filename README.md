@@ -3,6 +3,8 @@
 ## Descrição
 Projeto para criação de um ambiente de Internet das Coisas (IoT) distribuído, com 4 dispositivos enviando dados de sensoriamento ambiental para uma aplicação ThingsBoard. Os dados são gerados de forma aleatória, processados e enviado para o ThingsBoards para que possam ser visualizados em um dashboard.
 
+![Dashboard("outros_arquivos\dashboard.png")
+
 ## Estrutura do Projeto
 - **Dispositivos:**
   - `sensor1_temperatura.py` - Temperatura
@@ -47,7 +49,13 @@ Para acessar o ThingsBoard deverá ser acessado seguinte link: localhost:8080.
 
 Para acessar o painel adminstrativo deverá ser informado o usuario `tenant@thingsboard.org` com a senha `tenant`.
 
-### Envio dos arquivos
+## Usabilidade
+
+##
+
+
+
+## Envios dos dados
 Para os envios das informações para o ThingsBoard é necessario que seja executado cada um dos arquivos disponbilizados na pasta dos dispositivos.
 
 A execução deverá ser feita usando os seguintes comandos.
