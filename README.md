@@ -22,7 +22,12 @@ Para que o projeto seja funcional, primeiramente deve ser realizado a instalaç�
 - Link de download do Python3: https://www.python.org/downloads/
 - Link de download do Docker: https://docker-docs.uclv.cu/get-docker/
 
-### Instalação do Tinkboard (Windows + Docker)
+### Instalação da Biblioteca do MQTT
+```bash
+pip install paho-mqtt
+```
+
+### Instalação do ThingsBoard (Windows + Docker)
 
 ```bash
 docker volume create mytb-data
@@ -30,7 +35,7 @@ docker volume create mytb-data
 ```bash
 docker volume create mytb-logs
 ```
-**Após a criação dos volumes, deveremos acessar via terminal a `outros_arquivos` e rodar os seguintes comandos:**
+Após a criação dos volumes, deveremos acessar via terminal a `outros_arquivos` e rodar os seguintes comandos:
 
 ```bash
 docker compose up -d
@@ -38,3 +43,7 @@ docker compose up -d
 ```bash
 docker compose logs -f mytb
 ```
+Para acessar o ThingsBoard deverá ser acessado seguinte link: localhost:8080.
+Para acessar o painel adminstrativo deverá ser informado o usuario `tenant@thingsboard.org` com a senha `tenant`.
+
+  
