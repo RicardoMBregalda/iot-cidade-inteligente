@@ -63,6 +63,11 @@ Deverá ser acessado no painel adminstrativo a tela de `Dashboards`, nessa tela 
 
 Com esse processo será importado o Dashboard criado e poderá ser visualizado os dados que serão enviados.
 
+### Configuração dos Alarmes
+Deverá ser acessado no painel adminstrativo a tela de `Cadeira de Regras`, nessa tela deverá clicar no `(+)` e clicar em `Importar cadeira de regras`, após isso deve ser selecionado os arquivos `.json` que se encontram em `outros_arquivos\`, seriam os arquivos `root_rule_chain.json`, `qualidade_do_ar.json`, `ruido.json`, `temperatura.json`e `umidade.json`.
+
+Com esse processo será importado o os alarmes e assim quando houver um aumento significativo irá ser registrado nos alarmes.
+
 ### Envios dos dados
 Para os envios das informações para o ThingsBoard é necessario que seja executado cada um dos arquivos disponbilizados na pasta dos dispositivos.
 
