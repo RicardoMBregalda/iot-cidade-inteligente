@@ -84,6 +84,6 @@ py .\dispositivos\sensor3_ruido\sensor3_ruido.py
 py .\dispositivos\sensor4_qualidade_ar\sensor4_qualidade_ar.py
 ```
 ## Video
-https://www.youtube.com/@ricardobregalda7479
+https://youtu.be/_w1mtDtZicU
 
 
